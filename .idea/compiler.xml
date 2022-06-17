@@ -9,10 +9,8 @@
         <module name="TaskManager" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="TaskManager" options="--add-modules java.base" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="TaskManager" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
